@@ -1,6 +1,5 @@
 import Booking from '../models/Booking.js';
 
-// GET /api/bookings?serviceType=&carType=&status=&page=&limit=&startDate=&endDate=
 export const listBookings = async (req, res, next) => {
   try {
     const {

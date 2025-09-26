@@ -1,4 +1,3 @@
-// validateRequest.js
 import { body, validationResult } from 'express-validator';
 
 export const bookingValidationRules = () => {

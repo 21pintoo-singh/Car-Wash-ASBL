@@ -20,7 +20,6 @@ const BookingSchema = new Schema({
   addOns: { type: [String], default: [] },
 }, { timestamps: true });
 
-// helpful index for search by customerName and car make/model
 BookingSchema.index({ customerName: 'text', 'carDetails.make': 'text', 'carDetails.model': 'text' });
 
 export default _model('Booking', BookingSchema);

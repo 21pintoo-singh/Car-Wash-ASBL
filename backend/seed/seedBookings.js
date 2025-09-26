@@ -5,7 +5,7 @@ import dotenv from 'dotenv';
 
 dotenv.config();
 
-const MONGO = process.env.MONGO_URI || 'mongodb+srv://21pintoo-singh:S0Uw8LhNlYRyHfiq@cluster1.k5nsu.mongodb.net/carwashdb';
+const MONGO = process.env.MONGO_URI || 'localhost://5000/carwashdb';
 
 const seed = async () => {
   await connectDB(MONGO);
