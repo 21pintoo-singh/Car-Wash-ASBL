@@ -30,3 +30,27 @@ MERN app for booking and managing car wash services. Features:
 - Index created for text search on customerName and car details
 - To generate screenshots: run app and capture homepage, detail, add/edit, search results, mobile views.
 
+# Car Wash Booking App
+
+## Description
+A web app for managing car wash bookings with different services and car types.
+
+## Features
+- Add/Edit/Delete bookings
+- View booking details
+- Search bookings by customer/car
+- Mobile responsive
+
+## Tech Stack
+- Frontend: React, React Router, CSS
+- Backend: Node.js, Express, MongoDB, Mongoose
+- Validation: express-validator
+
+## Setup Instructions
+1. Clone the repo: `git clone https://github.com/21pintoo-singh/Car-Wash-ASBL.git`
+2. Backend:
+   ```bash
+   cd backend
+   npm install
+   npm run seed
+   npm start
